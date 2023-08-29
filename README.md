@@ -7,5 +7,4 @@ openssl ecparam -genkey -name prime256v1 -noout -out privkey.pem
 openssl ec -in privkey.pem -pubout -out pubkey.pem
 ```
 Then run dpop.py
-`
 
